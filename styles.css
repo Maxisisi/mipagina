@@ -1,0 +1,133 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+    font-family: "Josefin Sans", sans-serif;
+    line-height: 1.6;
+    background-color: rgb(239, 246, 243);
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: rgb(184, 212, 187);
+    color: rgb(73, 87, 82);
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Sección de datos */
+.datos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.dato {
+    background-color: rgb(240, 246, 239);
+    border: 1px solid rgb(240, 246, 239);
+    border-radius: 10px;
+    padding: 15px;
+    width: 20%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dato h2 {
+    font-size: 30px;
+    color: rgb(73, 87, 82);
+    margin-bottom: 10px;
+}
+
+.dato img {
+    width: 40%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.dato p {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.dato .label {
+    font-weight: bold;
+    color: rgb(73, 87, 82);
+}
+
+.dato .valor {
+    color: rgb(73, 87, 82);
+}
+
+/* Sección de plantas */
+.plantas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.planta {
+    background-color: rgb(240, 246, 239);
+    border: 1px solid rgb(240, 246, 239);
+    border-radius: 10px;
+    padding: 15px;
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.planta h2 {
+    font-size: 30px;
+    color: rgb(73, 87, 82);
+    margin-bottom: 10px;
+}
+
+.planta img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.planta p {
+    text-align: center;
+    margin-top: 6px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.planta .label {
+    font-weight: bold;
+    color: rgb(73, 87, 82);
+}
+
+.planta .valor {
+    color: rgb(73, 87, 82);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: rgb(255, 0, 0);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
